@@ -7,7 +7,7 @@ let userName
 userName = "mrspotts"
 
 // display user welcome message                       
-function showUser(user) {
+function showUser(user:string):string {
     return `Welcome, ${user}!`
 } 
 
